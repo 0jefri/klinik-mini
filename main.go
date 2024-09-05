@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "klinik-mini/database"
 
+func main() {
+	database.InitDB()
 }
