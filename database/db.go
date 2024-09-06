@@ -19,7 +19,7 @@ func InitDB() {
 
 	fmt.Println("Success Connect to Database!!!")
 
-	db.AutoMigrate(&model.Access{}, &model.Role{}, &model.RoleAccess{}, &model.Address{}, &model.Contact{}, &model.Insurance{}, &model.PersonIdentity{})
+	db.AutoMigrate(&model.Access{}, &model.Role{}, &model.RoleAccess{}, &model.Address{}, &model.Contact{}, &model.Insurance{}, &model.PersonIdentity{}, &model.Person{})
 
 	// access := []model.Access{
 	// 	{Code: "001", Name: "Add", Desc: "Add new patien"},
